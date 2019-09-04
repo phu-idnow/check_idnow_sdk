@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A849B8CDFB9D0AFE140944F /* Pods_CheckIDNowSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB47735E764900135504932 /* Pods_CheckIDNowSDK.framework */; };
+		5A7ED61A231F6B70003AE084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ED619231F6B70003AE084 /* AppDelegate.swift */; };
+		5A7ED61C231F6B70003AE084 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7ED61B231F6B70003AE084 /* ViewController.swift */; };
+		5A7ED61F231F6B70003AE084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7ED61D231F6B70003AE084 /* Main.storyboard */; };
+		5A7ED621231F6B72003AE084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7ED620231F6B72003AE084 /* Assets.xcassets */; };
+		5A7ED624231F6B72003AE084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7ED622231F6B72003AE084 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DB47735E764900135504932 /* Pods_CheckIDNowSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckIDNowSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7ED616231F6B70003AE084 /* CheckIDNowSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckIDNowSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7ED619231F6B70003AE084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A7ED61B231F6B70003AE084 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A7ED61E231F6B70003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7ED620231F6B72003AE084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A7ED623231F6B72003AE084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A7ED625231F6B72003AE084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C73C84B3F7BC99E40AB8171 /* Pods-CheckIDNowSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckIDNowSDK.release.xcconfig"; path = "Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK.release.xcconfig"; sourceTree = "<group>"; };
+		D30549988C2BDF6FF928D14A /* Pods-CheckIDNowSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckIDNowSDK.debug.xcconfig"; path = "Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7ED613231F6B70003AE084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A849B8CDFB9D0AFE140944F /* Pods_CheckIDNowSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF056746B51277F96A365AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D30549988C2BDF6FF928D14A /* Pods-CheckIDNowSDK.debug.xcconfig */,
+				5C73C84B3F7BC99E40AB8171 /* Pods-CheckIDNowSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A7ED60D231F6B70003AE084 = {
+			isa = PBXGroup;
+			children = (
+				5A7ED618231F6B70003AE084 /* CheckIDNowSDK */,
+				5A7ED617231F6B70003AE084 /* Products */,
+				4CF056746B51277F96A365AF /* Pods */,
+				7EE70E7CA5C8C7CBF54CF0D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A7ED617231F6B70003AE084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ED616231F6B70003AE084 /* CheckIDNowSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A7ED618231F6B70003AE084 /* CheckIDNowSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5A7ED619231F6B70003AE084 /* AppDelegate.swift */,
+				5A7ED61B231F6B70003AE084 /* ViewController.swift */,
+				5A7ED61D231F6B70003AE084 /* Main.storyboard */,
+				5A7ED620231F6B72003AE084 /* Assets.xcassets */,
+				5A7ED622231F6B72003AE084 /* LaunchScreen.storyboard */,
+				5A7ED625231F6B72003AE084 /* Info.plist */,
+			);
+			path = CheckIDNowSDK;
+			sourceTree = "<group>";
+		};
+		7EE70E7CA5C8C7CBF54CF0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB47735E764900135504932 /* Pods_CheckIDNowSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A7ED615231F6B70003AE084 /* CheckIDNowSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7ED628231F6B72003AE084 /* Build configuration list for PBXNativeTarget "CheckIDNowSDK" */;
+			buildPhases = (
+				A5F00C5991AB4D26C75F0C42 /* [CP] Check Pods Manifest.lock */,
+				5A7ED612231F6B70003AE084 /* Sources */,
+				5A7ED613231F6B70003AE084 /* Frameworks */,
+				5A7ED614231F6B70003AE084 /* Resources */,
+				8A5217FC5EE9681F8201E065 /* [CP] Embed Pods Frameworks */,
+				5FDB69A1AF966D3E79C42747 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckIDNowSDK;
+			productName = CheckIDNowSDK;
+			productReference = 5A7ED616231F6B70003AE084 /* CheckIDNowSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A7ED60E231F6B70003AE084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Phu Nguyen";
+				TargetAttributes = {
+					5A7ED615231F6B70003AE084 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5A7ED611231F6B70003AE084 /* Build configuration list for PBXProject "CheckIDNowSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A7ED60D231F6B70003AE084;
+			productRefGroup = 5A7ED617231F6B70003AE084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7ED615231F6B70003AE084 /* CheckIDNowSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7ED614231F6B70003AE084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7ED624231F6B72003AE084 /* LaunchScreen.storyboard in Resources */,
+				5A7ED621231F6B72003AE084 /* Assets.xcassets in Resources */,
+				5A7ED61F231F6B70003AE084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FDB69A1AF966D3E79C42747 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5217FC5EE9681F8201E065 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CheckIDNowSDK/Pods-CheckIDNowSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F00C5991AB4D26C75F0C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckIDNowSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A7ED612231F6B70003AE084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7ED61C231F6B70003AE084 /* ViewController.swift in Sources */,
+				5A7ED61A231F6B70003AE084 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A7ED61D231F6B70003AE084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7ED61E231F6B70003AE084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7ED622231F6B72003AE084 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7ED623231F6B72003AE084 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A7ED626231F6B72003AE084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A7ED627231F6B72003AE084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7ED629231F6B72003AE084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30549988C2BDF6FF928D14A /* Pods-CheckIDNowSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckIDNowSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.CheckIDNowSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A7ED62A231F6B72003AE084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C73C84B3F7BC99E40AB8171 /* Pods-CheckIDNowSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckIDNowSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.CheckIDNowSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A7ED611231F6B70003AE084 /* Build configuration list for PBXProject "CheckIDNowSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7ED626231F6B72003AE084 /* Debug */,
+				5A7ED627231F6B72003AE084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7ED628231F6B72003AE084 /* Build configuration list for PBXNativeTarget "CheckIDNowSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7ED629231F6B72003AE084 /* Debug */,
+				5A7ED62A231F6B72003AE084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A7ED60E231F6B70003AE084 /* Project object */;
+}
